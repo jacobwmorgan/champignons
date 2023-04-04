@@ -25,10 +25,7 @@ dataset
 ├── Lactarius
 ├── Russula
 ├── Suillus
-
 ```
-:exclamation: An issue ive noticed with this specific dataset is that it will make the dataset twice. If you see a folder with the name "Mushrooms" inside of the dataset, delete it. The directory should look like it does above.
-
 Running ```com_dataset.ipynb``` will create two new pickle files. One for the images and one for the classification labels.
 
 ## Model

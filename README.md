@@ -6,11 +6,14 @@ The goal of this is to compare different models and find the best model for clas
 
 ## Installing dataset
 
-Eventually I will have code to install the dataset automatically
-
 Install the temp dataset from [here](https://www.kaggle.com/datasets/maysee/mushrooms-classification-common-genuss-images)
 
-and add the indiviual folders to the dataset directory
+Store it in google drive and mount it to the notebook
+
+Change the variable ```DATADIR``` to the path of the dataset
+
+For example 
+```DATADIR = "/content/drive/MyDrive/Mushrooms/dataset"```
 
 The directory should look like this
 ```
@@ -18,16 +21,18 @@ dataset
 ├── Agaricus
 ├── Amanita
 ├── Boletus
-├── Cantharellus
 ├── Cortinarius
 ├── Entoloma
 ├── Hygrocybe
 ├── Lactarius
 ├── Russula
 ├── Suillus
-```
-Running ```com_dataset.ipynb``` will create two new pickle files. One for the images and one for the classification labels.
+
 
 ## Model
 
-The model is stored in ```com_ml.ipynb``` and can be edited in there too. If running in vs code you can access the tensorboard via command at the top of the notebook.
+I train three models.
+
+1. Champignon-Net (my own model)
+2. [EfficientNet-B1](https://www.tensorflow.org/api_docs/python/tf/keras/applications/efficientnet)
+3. [ResNet](https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet)

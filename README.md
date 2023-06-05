@@ -38,4 +38,4 @@ I train three models.
 3. [ResNet](https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet)
 
 ## Disseration
-Read the diseratio [here](https://github.com/jacobwmorgan/champignons/blob/main/Undergrad_Dissertation-3.pdf)
+Read the diss [here](https://github.com/jacobwmorgan/champignons/blob/main/Undergrad_Dissertation-3.pdf)

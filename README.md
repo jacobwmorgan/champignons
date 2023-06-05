@@ -36,3 +36,6 @@ I train three models.
 1. Champignon-Net (my own model)
 2. [EfficientNet-B1](https://www.tensorflow.org/api_docs/python/tf/keras/applications/efficientnet)
 3. [ResNet](https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet)
+
+## Disseration
+Read the diseratio [here](https://github.com/jacobwmorgan/champignons/blob/main/Undergrad_Dissertation-3.pdf)
